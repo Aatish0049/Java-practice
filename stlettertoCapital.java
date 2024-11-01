@@ -1,6 +1,6 @@
 
 
-public class stlettertoCapital {
+public class stlettertoCapital {//1st letter OF WORD  to Capital letter
     public static String ToUpperCase(String str) {
         StringBuilder sb=new StringBuilder("");
         char ch=Character.toUpperCase(str.charAt(0));
